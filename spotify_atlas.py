@@ -725,5 +725,7 @@ def update_heatmap(genre):
     return fig, artist_text
 
 
+server = app.server
+
 if __name__ == "__main__":
     app.run(debug=False, port=8051, dev_tools_ui=False)
